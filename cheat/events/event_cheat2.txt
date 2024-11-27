@@ -1,0 +1,22 @@
+country_event = {
+	id = events_cheat.2
+	title = add
+	desc = add
+	is_triggered_only = yes
+	option = {
+		name = adm
+		add_adm_power = 10000
+	}
+	option = {
+		name = dip
+		add_dip_power = 10000
+	}
+	option = {
+		name = mil
+		add_mil_power = 10000
+	}
+	option = {
+		name = cash
+		add_treasury = 10000
+	}
+}

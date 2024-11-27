@@ -1,0 +1,18 @@
+country_event = {
+	id = events_cheat.1
+	title = add_Technology
+	desc = add_Technology
+	is_triggered_only = yes
+	option = {
+		name = adm_tech
+		add_adm_tech = 1
+	}
+	option = {
+		name = dip_tech
+		add_dip_tech = 1
+	}
+	option = {
+		name = mil_tech
+		add_mil_tech = 1
+	}
+}

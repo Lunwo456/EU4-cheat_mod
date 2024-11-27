@@ -1,0 +1,3 @@
+add_missionary_strength = {
+    global_missionary_strength = 0.8
+}

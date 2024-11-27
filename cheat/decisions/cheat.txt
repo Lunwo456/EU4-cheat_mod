@@ -1,0 +1,100 @@
+country_decisions = {
+	add_Adm_Dip_Mal_Cash = {
+        potential = {
+			ai = no
+		}
+		effect = {
+			country_event = {
+				id = events_cheat.2
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+    }
+	manpower_add_100k = {
+		potential = {
+			ai = no
+		}
+		effect = {
+			add_manpower = 100
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	leader_add = {
+		potential = {
+			ai = no
+		}
+		effect = {
+			define_general = {
+				shock = 9999
+				fire = 9999
+				manuever = 9999
+				siege = 9999
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	admiral_add = {
+		potential = {
+			ai = no
+		}
+		effect = {
+			define_admiral = {
+				shock = 9999
+				fire = 9999
+				manuever = 9999
+				siege = 9999
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	Technology_add = {
+		potential = {
+			ai = no
+		}
+		effect = {
+			country_event = {
+				id = events_cheat.1
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	Add_missionary_strength = {
+		potential = {
+			ai = no
+		}
+		effect = {
+			add_country_modifier = {
+				name = add_missionary_strength
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	add_development = {
+		potential = {
+			ai = no
+		}
+		effect = {
+			every_owned_province = {
+				add_base_manpower = 10
+				add_base_tax = 10
+				add_base_production = 10
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}
