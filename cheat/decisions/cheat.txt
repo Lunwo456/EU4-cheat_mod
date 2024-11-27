@@ -23,7 +23,7 @@ country_decisions = {
 			factor = 0
 		}
 	}
-	leader_add = {
+	add_leader = {
 		potential = {
 			ai = no
 		}
@@ -39,7 +39,7 @@ country_decisions = {
 			factor = 0
 		}
 	}
-	admiral_add = {
+	add_admiral = {
 		potential = {
 			ai = no
 		}
@@ -55,7 +55,7 @@ country_decisions = {
 			factor = 0
 		}
 	}
-	Technology_add = {
+	add_Technology = {
 		potential = {
 			ai = no
 		}
