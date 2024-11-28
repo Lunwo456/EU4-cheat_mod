@@ -1,5 +1,5 @@
 country_event = {
-	id = events_cheat.2
+	id = events_cheat_Adm_Dip_Mal_Cash.2
 	title = add_Adm_Dip_Mal_Cash
 	desc = add_Adm_Dip_Mal_Cash
 	is_triggered_only = yes

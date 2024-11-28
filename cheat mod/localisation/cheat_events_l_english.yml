@@ -7,3 +7,7 @@
  add_dip: "£dip£ Dip +10k"
  add_mil: "£mil£ Mil +10k"
  add_cash: "Cash +10k"
+ add_missionary_strength_and_missionary: "Add Missionary strength or Missionary"
+ add_missionary: "Missionary"
+ add_missionary_strength: "Missionary strength"
+ missionary_strength_and_missionary: "Missionary strength and Missionary"

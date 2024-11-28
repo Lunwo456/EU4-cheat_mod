@@ -1,0 +1,31 @@
+country_decisions = {
+	cheat_on = {
+		potential = {
+			ai = no
+			not = {
+				has_country_modifier = cheat_open
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		effect = {
+			add_country_modifier = {
+				name = cheat_open
+				duration = -1
+			}
+		}
+	}
+	cheat_off = {
+		potential = {
+			ai = no
+			has_country_modifier = cheat_open
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		effect = {
+			remove_country_modifier = cheat_open
+		}
+	}
+}

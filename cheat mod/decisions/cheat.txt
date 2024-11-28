@@ -5,7 +5,7 @@ country_decisions = {
 		}
 		effect = {
 			country_event = {
-				id = events_cheat.2
+				id = events_cheat_Adm_Dip_Mal_Cash.2
 			}
 		}
 		ai_will_do = {
@@ -61,21 +61,7 @@ country_decisions = {
 		}
 		effect = {
 			country_event = {
-				id = events_cheat.1
-			}
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	Add_missionary_strength = {
-		potential = {
-			ai = no
-		}
-		effect = {
-			add_country_modifier = {
-				name = add_missionary_strength
-				duration = -1
+				id = events_cheat_technology.1
 			}
 		}
 		ai_will_do = {
@@ -91,6 +77,32 @@ country_decisions = {
 				add_base_manpower = 10
 				add_base_tax = 10
 				add_base_production = 10
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	add_all_core = {
+		potential = {
+			ai = no
+		}
+		effect = {
+			every_owned_province = {
+				add_core = ROOT
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	add_missionary_strength_and_missionary = {
+		potential = {
+			ai = no
+		}
+		effect = {
+			country_event = {
+				id = event_cheat_missionary.3
 			}
 		}
 		ai_will_do = {

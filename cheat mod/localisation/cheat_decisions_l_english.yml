@@ -1,4 +1,6 @@
 ﻿l_english:
+ cheat_on_title: "00.Cheat On"
+ cheat_off_title: "00.Cheat Off"
  add_Adm_Dip_Mal_Cash_title: "Add Adm Dip Mal Cash"
  manpower_add_100k_title: "Manpower +100k"
  add_Technology_title: "Add Technology"
@@ -6,3 +8,5 @@
  add_development_title: "Add Development"
  add_leader_title: "Add Leader"
  add_admiral_title: "Add Admiral"
+ add_missionary_strength_and_missionary_title: "Add Missionary strength or Missionary"
+ add_all_core_title: "Add Core"

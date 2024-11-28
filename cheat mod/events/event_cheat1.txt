@@ -1,5 +1,5 @@
 country_event = {
-	id = events_cheat.1
+	id = events_cheat_technology.1
 	title = add_Technology
 	desc = add_Technology
 	is_triggered_only = yes
