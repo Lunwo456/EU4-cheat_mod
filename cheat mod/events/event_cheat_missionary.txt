@@ -1,5 +1,6 @@
+namespace = cheat_mod_events_missionary
 country_event = {
-	id = event_cheat_missionary.3
+	id = cheat_mod_events_missionary.1
 	title = add_missionary_strength_and_missionary
 	desc = add_missionary_strength_and_missionary
 	is_triggered_only = yes

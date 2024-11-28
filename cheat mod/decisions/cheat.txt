@@ -2,10 +2,11 @@ country_decisions = {
 	add_Adm_Dip_Mal_Cash = {
         potential = {
 			ai = no
+			has_country_modifier = cheat_menu_open
 		}
 		effect = {
 			country_event = {
-				id = events_cheat_Adm_Dip_Mal_Cash.2
+				id = cheat_mod_events_Adm_Dip_Mal_Cash.1
 			}
 		}
 		ai_will_do = {
@@ -15,6 +16,7 @@ country_decisions = {
 	manpower_add_100k = {
 		potential = {
 			ai = no
+			has_country_modifier = cheat_menu_open
 		}
 		effect = {
 			add_manpower = 100
@@ -26,6 +28,7 @@ country_decisions = {
 	add_leader = {
 		potential = {
 			ai = no
+			has_country_modifier = cheat_menu_open
 		}
 		effect = {
 			define_general = {
@@ -42,6 +45,7 @@ country_decisions = {
 	add_admiral = {
 		potential = {
 			ai = no
+			has_country_modifier = cheat_menu_open
 		}
 		effect = {
 			define_admiral = {
@@ -58,10 +62,11 @@ country_decisions = {
 	add_Technology = {
 		potential = {
 			ai = no
+			has_country_modifier = cheat_menu_open
 		}
 		effect = {
 			country_event = {
-				id = events_cheat_technology.1
+				id = cheat_mod_events_technology.1
 			}
 		}
 		ai_will_do = {
@@ -71,6 +76,7 @@ country_decisions = {
 	add_development = {
 		potential = {
 			ai = no
+			has_country_modifier = cheat_menu_open
 		}
 		effect = {
 			every_owned_province = {
@@ -86,6 +92,7 @@ country_decisions = {
 	add_all_core = {
 		potential = {
 			ai = no
+			has_country_modifier = cheat_menu_open
 		}
 		effect = {
 			every_owned_province = {
@@ -99,10 +106,26 @@ country_decisions = {
 	add_missionary_strength_and_missionary = {
 		potential = {
 			ai = no
+			has_country_modifier = cheat_menu_open
 		}
 		effect = {
 			country_event = {
-				id = event_cheat_missionary.3
+				id = cheat_mod_events_missionary.1
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	add_power_projection = {
+		potential = {
+			ai = no
+			has_country_modifier = cheat_menu_open
+		}
+		effect = {
+			add_power_projection = {
+				type = add_power_projection
+				amount = 100
 			}
 		}
 		ai_will_do = {

@@ -1,5 +1,6 @@
+namespace = cheat_mod_events_technology
 country_event = {
-	id = events_cheat_technology.1
+	id = cheat_mod_events_technology.1
 	title = add_Technology
 	desc = add_Technology
 	is_triggered_only = yes

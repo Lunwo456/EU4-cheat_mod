@@ -1,3 +1,3 @@
-cheat_open = {
+cheat_menu_open = {
     
 }

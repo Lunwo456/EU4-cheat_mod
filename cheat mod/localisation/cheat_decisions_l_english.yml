@@ -1,6 +1,6 @@
 ﻿l_english:
- cheat_on_title: "00.Cheat On"
- cheat_off_title: "00.Cheat Off"
+ cheat_menu_on_title: "00.Cheat menu On"
+ cheat_menu_off_title: "00.Cheat menu Off"
  add_Adm_Dip_Mal_Cash_title: "Add Adm Dip Mal Cash"
  manpower_add_100k_title: "Manpower +100k"
  add_Technology_title: "Add Technology"
@@ -10,3 +10,6 @@
  add_admiral_title: "Add Admiral"
  add_missionary_strength_and_missionary_title: "Add Missionary strength or Missionary"
  add_all_core_title: "Add Core"
+ infinite_power_on_title: "Infinite power On"
+ infinite_power_off_title: "Infinite power Off"
+ add_power_projection_title: "Add Power projection"

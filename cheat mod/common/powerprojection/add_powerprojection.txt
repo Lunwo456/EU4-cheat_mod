@@ -1,0 +1,5 @@
+add_power_projection = {
+	max = 200
+	power = 1
+	yearly_decay = 1
+}
