@@ -1,0 +1,31 @@
+namespace = cheat_mod_events_technology
+country_event = {
+	id = cheat_mod_events_technology.1
+	title = cheat_add_Technology
+	desc = cheat_add_Technology
+	is_triggered_only = yes
+	option = {
+		name = cheat_adm_tech
+		add_adm_tech = 1
+	}
+	option = {
+		name = cheat_dip_tech
+		add_dip_tech = 1
+	}
+	option = {
+		name = cheat_mil_tech
+		add_mil_tech = 1
+	}
+	option = {
+		name = cheat_add_all_tech
+		add_adm_tech = 1
+		add_dip_tech = 1
+		add_mil_tech = 1
+	}
+	option = {
+		name = cheat_add_all_tech_x5
+		add_adm_tech = 5
+		add_dip_tech = 5
+		add_mil_tech = 5
+	}
+}

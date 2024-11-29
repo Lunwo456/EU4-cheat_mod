@@ -1,25 +1,25 @@
 namespace = cheat_mod_events_missionary
 country_event = {
 	id = cheat_mod_events_missionary.1
-	title = add_missionary_strength_and_missionary
-	desc = add_missionary_strength_and_missionary
+	title = cheat_add_missionary_strength_and_missionary_title
+	desc = cheat_add_missionary_strength_and_missionary_desc
 	is_triggered_only = yes
 	option = {
-		name = add_missionary_strength
+		name = cheat_add_missionary_strength
 		add_country_modifier = {
 			name = add_missionary_strength
 			duration = 3650
 		}
 	}
 	option = {
-		name = add_missionary
+		name = cheat_add_missionary
 		add_country_modifier = {
 			name = add_missionary
 			duration = 3650
 		}
 	}
 	option = {
-		name = missionary_strength_and_missionary
+		name = cheat_missionary_strength_and_missionary
 		add_country_modifier = {
 			name = add_missionary_strength
 			duration = 3650

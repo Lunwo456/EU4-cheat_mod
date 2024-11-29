@@ -1,0 +1,26 @@
+namespace = cheat_mod_events_change
+country_event = {
+	id = cheat_mod_events_change.1
+	title = cheat_change_culture_and_religion_title
+	desc = cheat_change_culture_and_religion_desc
+	is_triggered_only = yes
+	option = {
+		name = cheat_change_culture
+		every_owned_province = {
+			change_culture = ROOT
+		}
+	}
+	option = {
+		name = cheat_change_religion
+		every_owned_province = {
+			change_religion = ROOT
+		}
+	}
+	option = {
+		name = cheat_change_culture_and_religion
+		every_owned_province = {
+			change_culture = ROOT
+			change_religion = ROOT
+		}
+	}
+}

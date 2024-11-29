@@ -132,4 +132,18 @@ country_decisions = {
 			factor = 0
 		}
 	}
+	change_culture_religion = {
+		potential = {
+			ai = no
+			has_country_modifier = cheat_menu_open
+		}
+		effect = {
+			country_event = {
+				id = cheat_mod_events_change.1
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
 }
