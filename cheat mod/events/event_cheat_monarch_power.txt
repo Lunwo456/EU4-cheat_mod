@@ -1,8 +1,8 @@
-namespace = cheat_mod_events_Adm_Dip_Mal_Cash
+namespace = cheat_mod_events_Adm_Dip_Mil_Cash
 country_event = {
-	id = cheat_mod_events_Adm_Dip_Mal_Cash.1
-	title = cheat_add_Adm_Dip_Mal_Cash
-	desc = cheat_add_Adm_Dip_Mal_Cash
+	id = cheat_mod_events_Adm_Dip_Mil_Cash.1
+	title = cheat_add_Adm_Dip_Mil_Cash
+	desc = cheat_add_Adm_Dip_Mil_Cash
 	is_triggered_only = yes
 	option = {
 		name = cheat_add_adm

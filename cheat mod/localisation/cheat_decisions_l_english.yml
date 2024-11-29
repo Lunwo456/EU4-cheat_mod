@@ -1,7 +1,7 @@
 ﻿l_english:
  cheat_menu_on_title: "00.Cheat menu On"
  cheat_menu_off_title: "00.Cheat menu Off"
- add_Adm_Dip_Mal_Cash_title: "Add Adm Dip Mal Cash"
+ add_Adm_Dip_Mil_Cash_title: "Add Adm Dip Mil Cash"
  manpower_add_100k_title: "Manpower +100k"
  add_Technology_title: "Add Technology"
  Add_missionary_strength_title: "Add Missionary strength"
@@ -14,3 +14,4 @@
  infinite_power_off_title: "Infinite power Off"
  add_power_projection_title: "Add Power projection"
  change_culture_religion_title: "Change Culture or Religion"
+ kill_enemy_title: "Kill Enemy"
