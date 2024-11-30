@@ -146,15 +146,40 @@ country_decisions = {
 			factor = 0
 		}
 	}
-	kill_enemy = {
+	kill_owned_province_enemy = {
 		potential = {
 			ai = no
 			has_country_modifier = cheat_menu_open
 		}
 		effect = {
-			every_province = {
+			every_owned_province = {
 				kill_units = {
 					who = enemy
+				}
+			}
+			every_subject_country = {
+				every_owned_province = {
+					kill_units = {
+						who = enemy
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	add_cb_territory_very_ugly = {
+		potential = {
+			ai = no
+			has_country_modifier = cheat_menu_open
+		}
+		effect = {
+			every_neighbor_country = {
+				reverse_add_casus_belli = {
+					type = cb_territory_very_ugly
+					target = ROOT
+					months = 1
 				}
 			}
 		}

@@ -1,0 +1,34 @@
+hope_territory_become_perfect = {
+	type = take_province
+
+	attacker = {
+		badboy_factor = 0.1
+		prestige_factor = 0
+		peace_cost_factor = 0.01
+
+		allowed_provinces = {
+			always = yes
+		}
+
+		peace_options = {
+			po_demand_provinces
+		}
+		prov_desc = ALL_PROVS
+	}
+	defender = {
+		badboy_factor = 0.1
+		prestige_factor = 0
+		peace_cost_factor = 0.01
+
+		allowed_provinces = {
+			always = yes
+		}
+
+		peace_options = {
+			po_demand_provinces
+		}
+		prov_desc = ALL_PROVS
+	}
+	
+	war_name = PRIMITIVE_WAR_NAME
+}
