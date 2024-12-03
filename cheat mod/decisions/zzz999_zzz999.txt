@@ -1,5 +1,8 @@
 country_decisions = {
 	cheat_menu_on = {
+		color = {
+			0 255 0
+		}
 		potential = {
 			ai = no
 			not = {
@@ -17,6 +20,9 @@ country_decisions = {
 		}
 	}
 	cheat_menu_off = {
+		color = {
+			255 0 0
+		}
 		potential = {
 			ai = no
 			has_country_modifier = cheat_menu_open

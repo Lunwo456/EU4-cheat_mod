@@ -1,6 +1,6 @@
 ﻿l_english:
- cheat_menu_on_title: "00.Cheat menu On"
- cheat_menu_off_title: "00.Cheat menu Off"
+ cheat_menu_on_title: "A00.Cheat menu On"
+ cheat_menu_off_title: "A00.Cheat menu Off"
  add_Adm_Dip_Mil_Cash_title: "Add Adm Dip Mil Cash"
  manpower_add_100k_title: "Manpower +100k"
  add_Technology_title: "Add Technology"
@@ -16,3 +16,5 @@
  change_culture_religion_title: "Change Culture or Religion"
  kill_owned_province_enemy_title: "Kill owned province enemy"
  add_cb_territory_very_ugly_title: "Add cb Territory very ugly"
+ CM_army_modifiers_on_title: "Army Modifiers on"
+ CM_army_modifiers_off_title: "Army Modifiers off"

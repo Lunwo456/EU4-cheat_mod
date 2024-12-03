@@ -1,0 +1,52 @@
+country_decisions = {
+	infinite_power_on = {
+		potential = {
+			ai = no
+			has_country_modifier = cheat_menu_open
+			not = {
+				has_country_modifier = infinite_power
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = infinite_power
+				duration = -1
+			}
+		}
+	}
+	infinite_power_off = {
+		potential = {
+			ai = no
+			has_country_modifier = cheat_menu_open
+			has_country_modifier = infinite_power
+		}
+		effect = {
+			remove_country_modifier = infinite_power
+		}
+	}
+	CM_army_modifiers_on = {
+		potential = {
+			ai = no
+			has_country_modifier = cheat_menu_open
+			not = {
+				has_country_modifier = CM_army_military_modifiers
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = CM_army_military_modifiers
+				duration = -1
+			}
+		}
+	}
+	CM_army_modifiers_off = {
+		potential = {
+			ai = no
+			has_country_modifier = cheat_menu_open
+			has_country_modifier = CM_army_military_modifiers
+		}
+		effect = {
+			remove_country_modifier = CM_army_military_modifiers
+		}
+	}
+}

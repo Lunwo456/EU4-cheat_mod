@@ -9,9 +9,6 @@ country_decisions = {
 				id = cheat_mod_events_Adm_Dip_Mil_Cash.1
 			}
 		}
-		ai_will_do = {
-			factor = 0
-		}
     }
 	manpower_add_100k = {
 		potential = {
@@ -20,9 +17,6 @@ country_decisions = {
 		}
 		effect = {
 			add_manpower = 100
-		}
-		ai_will_do = {
-			factor = 0
 		}
 	}
 	add_leader = {
@@ -38,9 +32,6 @@ country_decisions = {
 				siege = 9999
 			}
 		}
-		ai_will_do = {
-			factor = 0
-		}
 	}
 	add_admiral = {
 		potential = {
@@ -55,9 +46,6 @@ country_decisions = {
 				siege = 9999
 			}
 		}
-		ai_will_do = {
-			factor = 0
-		}
 	}
 	add_Technology = {
 		potential = {
@@ -68,9 +56,6 @@ country_decisions = {
 			country_event = {
 				id = cheat_mod_events_technology.1
 			}
-		}
-		ai_will_do = {
-			factor = 0
 		}
 	}
 	add_development = {
@@ -85,9 +70,6 @@ country_decisions = {
 				add_base_production = 10
 			}
 		}
-		ai_will_do = {
-			factor = 0
-		}
 	}
 	add_all_core = {
 		potential = {
@@ -99,9 +81,6 @@ country_decisions = {
 				add_core = ROOT
 			}
 		}
-		ai_will_do = {
-			factor = 0
-		}
 	}
 	add_missionary_strength_and_missionary = {
 		potential = {
@@ -112,9 +91,6 @@ country_decisions = {
 			country_event = {
 				id = cheat_mod_events_missionary.1
 			}
-		}
-		ai_will_do = {
-			factor = 0
 		}
 	}
 	add_power_projection = {
@@ -128,9 +104,6 @@ country_decisions = {
 				amount = 100
 			}
 		}
-		ai_will_do = {
-			factor = 0
-		}
 	}
 	change_culture_religion = {
 		potential = {
@@ -141,9 +114,6 @@ country_decisions = {
 			country_event = {
 				id = cheat_mod_events_change.1
 			}
-		}
-		ai_will_do = {
-			factor = 0
 		}
 	}
 	kill_owned_province_enemy = {
@@ -164,9 +134,6 @@ country_decisions = {
 					}
 				}
 			}
-		}
-		ai_will_do = {
-			factor = 0
 		}
 	}
 	add_cb_territory_very_ugly = {
@@ -191,9 +158,6 @@ country_decisions = {
 					}
 				}
 			}
-		}
-		ai_will_do = {
-			factor = 0
 		}
 	}
 }
