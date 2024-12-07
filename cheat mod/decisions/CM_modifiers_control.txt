@@ -49,4 +49,29 @@ country_decisions = {
 			remove_country_modifier = CM_army_military_modifiers
 		}
 	}
+	CM_navy_modifiers_on = {
+		potential = {
+			ai = no
+			has_country_modifier = cheat_menu_open
+			not = {
+				has_country_modifier = CM_navy_military_modifiers
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = CM_navy_military_modifiers
+				duration = -1
+			}
+		}
+	}
+	CM_navy_modifiers_off = {
+		potential = {
+			ai = no
+			has_country_modifier = cheat_menu_open
+			has_country_modifier = CM_navy_military_modifiers
+		}
+		effect = {
+			remove_country_modifier = CM_navy_military_modifiers
+		}
+	}
 }
