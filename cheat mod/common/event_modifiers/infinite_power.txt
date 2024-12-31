@@ -15,4 +15,5 @@ infinite_power = {
 	sailors_recovery_speed = 1000
 	global_sailors = 50000
 	global_tax_income = 1200000
+	imperial_authority_value = 100
 }

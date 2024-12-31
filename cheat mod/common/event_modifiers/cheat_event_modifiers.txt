@@ -4,3 +4,11 @@ add_missionary_strength = {
 add_missionary = {
     missionaries = 10
 }
+CM_governing_capacity_modifiers = {
+    governing_capacity = 4000
+    governing_capacity_modifier = 5
+    state_governing_cost = -0.9
+    governing_cost = -0.9
+    local_governing_cost = -0.9
+    statewide_governing_cost = -0.9
+}
