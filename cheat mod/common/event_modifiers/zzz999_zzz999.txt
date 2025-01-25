@@ -1,3 +1,7 @@
 cheat_menu_open = {
     
 }
+CM_Missionary_intensifier = {
+    global_missionary_strength = 10
+    missionaries = 50
+}

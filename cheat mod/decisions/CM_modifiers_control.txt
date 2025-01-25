@@ -123,4 +123,35 @@ country_decisions = {
 			remove_country_modifier = CM_governing_capacity_modifiers
 		}
 	}
+	CM_Missionary_intensifier_on = {
+		color = {
+			63 72 204
+		}
+		potential = {
+			ai = no
+			has_country_modifier = cheat_menu_open
+			not = {
+				has_country_modifier = CM_Missionary_intensifier
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = CM_Missionary_intensifier
+				duration = -1
+			}
+		}
+	}
+	CM_Missionary_intensifier_off = {
+		color = {
+			100 100 100
+		}
+		potential = {
+			ai = no
+			has_country_modifier = cheat_menu_open
+			has_country_modifier = CM_Missionary_intensifier
+		}
+		effect = {
+			remove_country_modifier = CM_Missionary_intensifier
+		}
+	}
 }

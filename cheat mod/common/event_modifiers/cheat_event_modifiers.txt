@@ -1,9 +1,3 @@
-add_missionary_strength = {
-    global_missionary_strength = 10
-}
-add_missionary = {
-    missionaries = 10
-}
 CM_governing_capacity_modifiers = {
     governing_capacity = 4000
     governing_capacity_modifier = 5

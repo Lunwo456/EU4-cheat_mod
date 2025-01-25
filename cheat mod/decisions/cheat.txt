@@ -82,17 +82,6 @@ country_decisions = {
 			}
 		}
 	}
-	add_missionary_strength_and_missionary = {
-		potential = {
-			ai = no
-			has_country_modifier = cheat_menu_open
-		}
-		effect = {
-			country_event = {
-				id = cheat_mod_events_missionary.1
-			}
-		}
-	}
 	add_power_projection = {
 		potential = {
 			ai = no
