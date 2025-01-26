@@ -149,4 +149,34 @@ country_decisions = {
 			}
 		}
 	}
+	CM_Add_conquistador = {
+		potential = {
+			ai = no
+			has_country_modifier = cheat_menu_open
+		}
+		effect = {
+			create_conquistador = {
+				tradition = 100
+				add_fire = 10
+				add_manuever = 10
+				add_shock = 10
+				add_siege = 10
+			}
+		}
+	}
+	CM_Add_explorer = {
+		potential = {
+			ai = no
+			has_country_modifier = cheat_menu_open
+		}
+		effect = {
+			create_explorer = {
+				tradition = 100
+				add_fire = 10
+				add_manuever = 10
+				add_shock = 10
+				add_siege = 10
+			}
+		}
+	}
 }

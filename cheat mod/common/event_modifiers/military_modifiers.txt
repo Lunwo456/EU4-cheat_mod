@@ -55,4 +55,5 @@ CM_navy_military_modifiers = {
 	ship_durability = 5
 	sea_repair = yes
 	naval_attrition = -1
+	artillery_level_modifier = 5
 }
