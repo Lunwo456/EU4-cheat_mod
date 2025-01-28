@@ -179,4 +179,27 @@ country_decisions = {
 			}
 		}
 	}
+	CM_Add_prosperity = {
+		potential = {
+			ai = no
+			has_country_modifier = cheat_menu_open
+		}
+		effect = {
+			every_owned_province = {
+				add_devastation = -200
+				add_prosperity = 200
+			}
+		}
+	}
+	CM_Construction_complete = {
+		potential = {
+			ai = no
+			has_country_modifier = cheat_menu_open
+		}
+		effect = {
+			every_owned_province = {
+				add_construction_progress = 2
+			}
+		}
+	}
 }
