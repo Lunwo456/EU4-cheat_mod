@@ -2,7 +2,7 @@ hope_territory_become_perfect = {
 	type = take_province
 
 	attacker = {
-		badboy_factor = 1
+		badboy_factor = 0
 		prestige_factor = 0
 		peace_cost_factor = 0.05
 
@@ -16,9 +16,9 @@ hope_territory_become_perfect = {
 		prov_desc = ALL_PROVS
 	}
 	defender = {
-		badboy_factor = 0.1
+		badboy_factor = 5
 		prestige_factor = 0
-		peace_cost_factor = 0.01
+		peace_cost_factor = 5
 
 		allowed_provinces = {
 			always = yes
