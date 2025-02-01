@@ -47,7 +47,7 @@ CM_navy_military_modifiers = {
 	movement_speed_onto_off_boat_modifier = 10
 	transport_attrition = -1
 	regiment_disembark_speed = 10
-	coast_raid_range = 10
+	coast_raid_range = 2
 	naval_morale_constant = 100
 	naval_morale_damage = 10
 	naval_morale_damage_received = -1
@@ -56,4 +56,5 @@ CM_navy_military_modifiers = {
 	sea_repair = yes
 	naval_attrition = -1
 	artillery_level_modifier = 5
+	max_flagships = 100
 }

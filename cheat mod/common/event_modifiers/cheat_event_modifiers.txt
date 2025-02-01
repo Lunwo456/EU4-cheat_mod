@@ -5,4 +5,5 @@ CM_governing_capacity_modifiers = {
     governing_cost = -0.9
     local_governing_cost = -0.9
     statewide_governing_cost = -0.9
+    ignore_coring_distance = yes
 }
